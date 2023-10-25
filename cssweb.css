@@ -1,0 +1,64 @@
+.P1{
+    text-align:left;
+    font-family:'Times New Roman', 'Times', 'serif';
+    color:grey;
+}
+
+
+.na{
+    color:slategray;
+}
+
+
+body {
+    display:grid;
+    background-color: lightblue;
+    grid-template-columns:3fr 1fr;
+    grid-gap:0;
+}
+
+#left {
+    background-color: lightblue;
+    padding: 0;
+}
+
+    #left #contact h4{
+        text-align:center;
+    }
+    #left #contact{
+        text-align: center;
+    }
+
+#right {
+    background-color: azure;
+    border: 1px solid lightgray;
+}
+
+#right .two{
+    background-color:azure;
+    text-align: left;
+    margin-top: 0;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+    #right .one {
+        background-color: azure;
+        margin-top: 0;
+        padding-top: 50px;
+        padding-left: 100px;
+    }
+
+
+#scrollspyHeading1,#scrollspyHeading2,#scrollspyHeading3,#scrollspyHeading4 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+}
+
+
+@media screen and (min-width:576px ) {
+}
+
+@media screen and (max-width:768px, 992px ) {
+}
